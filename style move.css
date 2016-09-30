@@ -1,0 +1,163 @@
+html, body {
+  margin: 0;
+}
+a.btn:hover
+{
+  background:#ffa800;
+  color:black;
+}
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* Main */
+.btn
+{
+  text-decoration:none;
+  background-color:black;
+  color:white;
+  font-size:18px;
+  padding: 8px 30px;
+  display:inline-block;
+  margin-top:20px;
+}
+.main {
+  background:url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg);
+  text-align:center;
+  color:white;
+  height: 600px;
+  background-size:cover;
+}
+
+.main h1 {
+  font-size: 150px;
+  margin:0;
+}
+
+.main p {
+  font-size: 18px;
+  margin:0;
+}
+
+
+/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color:#1c1c1c;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+}
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+  height: 600px;
+  background:url("https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg");
+  background-size:cover;
+  text-align:center;
+}
+.feature h2
+{
+  font-size:60px;
+  
+}
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 60px;
+  text-align:center;
+  font-weight:bold;
+  padding:250px 0 0;
+  
+}
+
+h2
+{
+  display:block;
+  
+}
+/* Footer */
+.footer {
+  height: 600px;
+  background:url("https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg");
+    background-size:cover;
+  text-align:center;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:250px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+    
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}
